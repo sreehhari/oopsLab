@@ -1,6 +1,10 @@
+import java.util.*;
 class Week{
 	public static void main(String args[]){
-		int a=4;
+	Scanner in = new Scanner(System.in);
+	System.out.println("enter the number");
+	int a = in.nextInt();
+		
 		String day;
 		switch(a){
 			case(1):
